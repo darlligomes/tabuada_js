@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Meu primeiro programa</title>
+    <title> Tabuada </title>
     <link rel="stylesheet" href="style.css"></style>
 </head>
 
@@ -14,6 +14,10 @@
     <h1> Projeto de Tabuada </h1>
   </header>
     <section>
+      <div id="switch" onclick="toggleMode()">
+        <button><span><ion-icon name="sunny-outline"></ion-icon></span></button>
+           
+   </div>
         Insira um número: <input type="number" name="" id="inptnumber" placeholder="2"> <input type="submit" value="Calcular" onclick="calcular()">
      <details> 
       <summary id="sumário"> 
@@ -28,6 +32,9 @@
       <h2><a href="https://curriculogrid.vercel.app/" target="blank">  @DarlliGomes </a></h2>
     </footer>
 </div>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
 </body>
 <script src="app.js"></script>
 </html>
